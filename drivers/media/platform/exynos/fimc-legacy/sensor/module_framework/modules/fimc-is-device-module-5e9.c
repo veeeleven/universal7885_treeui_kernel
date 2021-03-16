@@ -158,7 +158,7 @@ static int sensor_module_5e9_power_setpin_with_eeprom(struct device *dev,
 
 	core = (struct fimc_is_core *)dev_get_drvdata(fimc_is_dev);
 	if (!core) {
-		err("core is NULL");
+		err("core is null");
 		return -EINVAL;
 	}
 
